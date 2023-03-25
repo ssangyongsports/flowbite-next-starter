@@ -1,12 +1,11 @@
+import React from 'react';
 import { Navbar } from "flowbite-react";
-export default function About() {
+
+
+function index() {
   return (
-    <div>
-      <h1>About This Wiki</h1>
-      <p>This wiki is all about Avatar: The Last Airbender!</p>
-    </div>
-  )
-}
+    <Layout title="聯絡">
+      <main>
 <Navbar
   fluid={true}
   rounded={true}
@@ -43,5 +42,9 @@ export default function About() {
     </Navbar.Link>
   </Navbar.Collapse>
 </Navbar>
-  )
+      </main>
+    </Layout>
+  );
 }
+
+export default Form;
